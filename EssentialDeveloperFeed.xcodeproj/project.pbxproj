@@ -11,6 +11,7 @@
 		2B49CECC2B6BE58500AA3E75 /* EssentialDeveloperFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B49CEC12B6BE58400AA3E75 /* EssentialDeveloperFeed.framework */; };
 		2B49CED12B6BE58500AA3E75 /* EssentialDeveloperFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49CED02B6BE58500AA3E75 /* EssentialDeveloperFeedTests.swift */; };
 		2B49CED22B6BE58500AA3E75 /* EssentialDeveloperFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B49CEC42B6BE58400AA3E75 /* EssentialDeveloperFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B49CEDC2B6BE5A200AA3E75 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49CEDB2B6BE5A200AA3E75 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		2B49CEC52B6BE58400AA3E75 /* EssentialDeveloperFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialDeveloperFeed.docc; sourceTree = "<group>"; };
 		2B49CECB2B6BE58500AA3E75 /* EssentialDeveloperFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialDeveloperFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B49CED02B6BE58500AA3E75 /* EssentialDeveloperFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDeveloperFeedTests.swift; sourceTree = "<group>"; };
+		2B49CEDB2B6BE5A200AA3E75 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				2B49CEC42B6BE58400AA3E75 /* EssentialDeveloperFeed.h */,
 				2B49CEC52B6BE58400AA3E75 /* EssentialDeveloperFeed.docc */,
+				2B49CEDB2B6BE5A200AA3E75 /* FeedItem.swift */,
 			);
 			path = EssentialDeveloperFeed;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B49CEDC2B6BE5A200AA3E75 /* FeedItem.swift in Sources */,
 				2B49CEC62B6BE58400AA3E75 /* EssentialDeveloperFeed.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +410,7 @@
 		2B49CED92B6BE58500AA3E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BF95HT3K2M;
@@ -421,6 +426,7 @@
 		2B49CEDA2B6BE58500AA3E75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BF95HT3K2M;
