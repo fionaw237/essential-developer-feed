@@ -14,6 +14,7 @@
 		2B49CEE32B6BF49300AA3E75 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49CEE22B6BF49300AA3E75 /* RemoteFeedLoaderTests.swift */; };
 		2B49CEE62B6CE76E00AA3E75 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49CEE52B6CE76E00AA3E75 /* RemoteFeedLoader.swift */; };
 		2BC755BC2B73772F004464E7 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC755BB2B73772F004464E7 /* HTTPClient.swift */; };
+		2BC755BE2B737863004464E7 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC755BD2B737863004464E7 /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2B49CEE22B6BF49300AA3E75 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		2B49CEE52B6CE76E00AA3E75 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		2BC755BB2B73772F004464E7 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		2BC755BD2B737863004464E7 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				2B49CEE52B6CE76E00AA3E75 /* RemoteFeedLoader.swift */,
 				2BC755BB2B73772F004464E7 /* HTTPClient.swift */,
+				2BC755BD2B737863004464E7 /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC755BE2B737863004464E7 /* FeedItemsMapper.swift in Sources */,
 				2B49CEE62B6CE76E00AA3E75 /* RemoteFeedLoader.swift in Sources */,
 				2B49CEC62B6BE58400AA3E75 /* EssentialDeveloperFeed.docc in Sources */,
 				2BC755BC2B73772F004464E7 /* HTTPClient.swift in Sources */,
