@@ -2,16 +2,19 @@
 //  FeedLoader.swift
 //  EssentialDeveloperFeed
 //
-//  Created by Fiona Wilson on 01/02/2024.
+//  Created by Fiona Wilson on 08/02/2024.
 //
 
 import Foundation
 
-enum LoadFeedResult {
+public enum LoadFeedResult<Error: Swift.Error> {
     case success([FeedItem])
-    case error(Error)
+    case failure(Error)
 }
 
+extension LoadFeedResult: Equatable where Error: Equatable {}
+
 protocol FeedLoader {
-    func load(completion: @escaping (LoadFeedResult) -> Void)
+    associatedtype Error: Swift.Error
+    func load(completion: @escaping (LoadFeedResult<Error>) -> Void)
 }
